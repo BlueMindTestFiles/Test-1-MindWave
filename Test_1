@@ -14,6 +14,15 @@ namespace testprogram {
     class Program {
         static Connector connector;
         static byte poorSig;
+        
+        //=== USER PARAMETERS ===
+        raw = 1;
+        blink = 0;
+        med = 0;
+        att = 0;
+        poor_signal = 0;
+        delta = 0;
+        //=======================
 
         public static void Main(string[] args) {
 
